@@ -31,7 +31,7 @@ _Exploring TryHackMe to expand my hands on practice reinforcing technical capabi
 **Step 4:** Take ownership of an alert</br>
 **Step 5:** Deep dive into the SIEM [Splunk]</br>
 
-## Attempt 1
+## Attempt 1: Introduction
 **Results:** [100%](https://tryhackme.com/zcurry.zinc/badges/soc-sim-100-percent-true-positive-rate?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=6a6e830155dbdfd620eeb0aa)</br>
 
 
@@ -46,6 +46,23 @@ Explanation: Known malicious IP - Escalate for further review as to why our IP t
 **Alert 3:** Inbound Email Containing Suspicious External Link </br>
 Decision: True Positive</br>
 Explanation: The sender and external link are impersonating Microsoft.</br>
+
+## Attempt 2: Scenario Unfolding
+**Results:** I am now in the top 45% _Unsure what this means_
+
+Description
+
+Dive into the heat of a live phishing attack as it unfolds within the corporate network. In this high-pressure scenario, your role is to meticulously analyze and document each phase of the breach as it happens. Can you piece together the attack chain in real-time and prepare a comprehensive report on the malicious activities?
+Scenario objectives
+
+Monitor and analyse real-time alerts as the attack unfolds.
+Identify and document critical events such as PowerShell executions, reverse shell connections, and suspicious DNS requests.
+Create detailed case reports based on your observations to help the team understand the full scope of the breach.
+
+**Actions Taken:**
+The CCNA Cybersecurity labs, studying, and knowledge helped me through this one for sure!
+At first there are a few simple phishing/spam emails then you get a few tickets of uncommon subprocesses which on their own could be false positives until you receive an indicator of attack (no spoilers here - IYKYK). Then over 30 tickets rush in requiring you to investigate via Splunk (it does allow you to select your preferred SIEM when starting). It quickly becomes apparent there is an external threat actor poking your network and then it happens - They begin exfiltrating data.
+It is important to both prioritize priority of tickets as the attack escalates but also keep a timeline in your mind as you investigate each ticket to provide accurate reporting.</br>
 
 </br></br>
 
