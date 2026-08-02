@@ -1,7 +1,7 @@
 # TryHackMe
 Documenting my journey exploring TryHackMe
 
-_Exploring TryHackMe to expand my hands on practice reinforcing my technical capabilities and its fun!_
+_Exploring TryHackMe to expand my hands on practice reinforcing technical capabilities with a pen test lens and its fun!_
 
 [View My TryHackMe Profile](https://tryhackme.com/p/zcurry.zinc)
 
