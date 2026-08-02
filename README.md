@@ -25,12 +25,14 @@ _Exploring TryHackMe to expand my hands on practice reinforcing technical capabi
 
 
 # SOC Simulator 
-**Results:** [100%](https://tryhackme.com/zcurry.zinc/badges/soc-sim-100-percent-true-positive-rate?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=6a6e830155dbdfd620eeb0aa)</br>
 **Step 1:** Find all true positives</br>
 **Step 2:** Read the documentation</br>
 **Step 3:** Investigate the alert queue</br>
 **Step 4:** Take ownership of an alert</br>
 **Step 5:** Deep dive into the SIEM [Splunk]</br>
+
+## Attempt 1
+**Results:** [100%](https://tryhackme.com/zcurry.zinc/badges/soc-sim-100-percent-true-positive-rate?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=6a6e830155dbdfd620eeb0aa)</br>
 
 
 **Alert 1:** Inbound Email Containing Suspicious External Link</br>
@@ -45,8 +47,12 @@ Explanation: Known malicious IP - Escalate for further review as to why our IP t
 Decision: True Positive</br>
 Explanation: The sender and external link are impersonating Microsoft.</br>
 
+</br></br>
+
 # Take Over Challenge
-**First Attempt:** Failed </br>
+
+## Attempt 1
+**Results:** Failed </br>
 Updated my host file with the IP and URL but was unable to obtain the x509 cert. Tried FFuF but it didn't work. Used the entire hour and will retire again in the near future.</br>
 _It said Fuffy Wuffy, Wasn't Fuffy Was He? And I said... Let me get back to you._
 
