@@ -25,12 +25,12 @@ _Exploring TryHackMe to expand my hands on practice reinforcing technical capabi
 
 
 # SOC Simulator 
-Results: [100%](https://tryhackme.com/zcurry.zinc/badges/soc-sim-100-percent-true-positive-rate?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=6a6e830155dbdfd620eeb0aa)</br>
-Step 1: Find all true positives</br>
-Step 2: Read the documentation</br>
-Step 3: Investigate the alert queue</br>
-Step 4: Take ownership of an alert</br>
-Step 5: Deep dive into the SIEM [Splunk]</br>
+**Results:** [100%](https://tryhackme.com/zcurry.zinc/badges/soc-sim-100-percent-true-positive-rate?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=6a6e830155dbdfd620eeb0aa)</br>
+**Step 1:** Find all true positives</br>
+**Step 2:** Read the documentation</br>
+**Step 3:** Investigate the alert queue</br>
+**Step 4:** Take ownership of an alert</br>
+**Step 5:** Deep dive into the SIEM [Splunk]</br>
 
 
 **Alert 1:** Inbound Email Containing Suspicious External Link</br>
@@ -41,10 +41,15 @@ Explanation: The link within the email is to another company impersonating Human
 Decision: True Positive</br>
 Explanation: Known malicious IP - Escalate for further review as to why our IP tried to access was it by accident, a phishing breach, or an inside threat.</br>
 
-
-# Take Over Challenge
-First Attempt: Updated my host file with the IP and URL but was unable to obtain the x509 cert. Tried Fuzz but it didn't work. Used the entire hour and will retire again in the near future.
-
 **Alert 3:** Inbound Email Containing Suspicious External Link </br>
 Decision: True Positive</br>
 Explanation: The sender and external link are impersonating Microsoft.</br>
+
+# Take Over Challenge
+**First Attempt:** Failed </br>
+Updated my host file with the IP and URL but was unable to obtain the x509 cert. Tried FFuF but it didn't work. Used the entire hour and will retire again in the near future.</br>
+_It said Fuffy Wuffy, Wasn't Fuffy Was He? And I said... Let me get back to you._
+
+**What I am learning through this exercise:**
+- ffuf Takes dirb (mapping unlisted pages) further by scanning the sites entire DNS configuration for both pages [HOST/pages] and subdomains [Private.HOST] this is very relevant as I have personally setup DNS servers to include subdomains for internal training sites.
+- The ability to bypass security by adding host files on your own device by tricking domains who maintain a self-signed certificate.
