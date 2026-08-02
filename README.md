@@ -25,7 +25,7 @@ _Exploring TryHackMe to expand my hands on practice reinforcing technical capabi
 
 
 # SOC Simulator 
-Results: [100%](https://tryhackme.com/zcurry.zinc/badges/soc-sim-100-percent-true-positive-rate?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=6a6e830155dbdfd620eeb0aa)
+Results: [100%](https://tryhackme.com/zcurry.zinc/badges/soc-sim-100-percent-true-positive-rate?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=6a6e830155dbdfd620eeb0aa)</br>
 Step 1: Find all true positives</br>
 Step 2: Read the documentation</br>
 Step 3: Investigate the alert queue</br>
