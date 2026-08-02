@@ -48,7 +48,8 @@ Decision: True Positive</br>
 Explanation: The sender and external link are impersonating Microsoft.</br>
 
 ## Attempt 2: Scenario Unfolding
-**Results:** [94.44%](https://tryhackme.com/soc-sim/public-summary/995098a35d4d0b022e6940be038e0a4d8f307bbee339a6e0d810565492b85d1774a2c6060cc470b203159d14b12684ca), Mean time to Resolve 1 minute, 36 Alerts - Currently 1st Place!, Placing me in the top 45% on TryHackMe
+**Results:** [94.44%](https://tryhackme.com/soc-sim/public-summary/995098a35d4d0b022e6940be038e0a4d8f307bbee339a6e0d810565492b85d1774a2c6060cc470b203159d14b12684ca) - Currently 1st Place!</br>
+_Placing me in the top 45% on TryHackMe_</br>
 
 <img width="1315" height="459" alt="image" src="https://github.com/user-attachments/assets/14e9a9be-df5e-4b73-bed8-de933c6c57ab" />
 <img width="1293" height="297" alt="image" src="https://github.com/user-attachments/assets/4f2bfbaf-cc29-437a-925b-f662d6c38f16" />
