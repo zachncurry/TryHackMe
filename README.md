@@ -24,7 +24,7 @@ _Exploring TryHackMe to expand my hands on practice reinforcing technical capabi
 
 
 
-**SOC Simulator**</br>
+# SOC Simulator**
 Step 1: Find all true positives</br>
 Step 2: Read the documentation</br>
 Step 3: Investigate the alert queue</br>
@@ -39,6 +39,10 @@ Explanation: The link within the email is to another company impersonating Human
 **Alert 2:** Access to Blacklisted External URL Blocked by Firewall</br>
 Decision: True Positive</br>
 Explanation: Known malicious IP - Escalate for further review as to why our IP tried to access was it by accident, a phishing breach, or an inside threat.</br>
+
+
+#Take Over Challenge
+First Attempt: Updated my host file with the IP and URL but was unable to obtain the x509 cert. Tried Fuzz but it didn't work. Used the entire hour and will retire again in the near future.
 
 **Alert 3:** Inbound Email Containing Suspicious External Link </br>
 Decision: True Positive</br>
