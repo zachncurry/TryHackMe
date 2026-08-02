@@ -24,22 +24,22 @@ _Exploring TryHackMe to expand my hands on practice reinforcing technical capabi
 
 
 
-**SOC Simulator**
-Step 1: Find all true positives
-Step 2: Read the documentation
-Step 3: Investigate the alert queue
-Step 4: Take ownership of an alert
-Step 5: Deep dive into the SIEM [Splunk]
+**SOC Simulator**</br>
+Step 1: Find all true positives</br>
+Step 2: Read the documentation</br>
+Step 3: Investigate the alert queue</br>
+Step 4: Take ownership of an alert</br>
+Step 5: Deep dive into the SIEM [Splunk]</br>
 
 
-**Alert 1:** Inbound Email Containing Suspicious External Link
-Decision: True Positive
-Explanation: The link within the email is to another company impersonating Human Resources to our employee redirecting them to an external website.
+**Alert 1:** Inbound Email Containing Suspicious External Link</br>
+Decision: True Positive</br>
+Explanation: The link within the email is to another company impersonating Human Resources to our employee redirecting them to an external website.</br>
 
-**Alert 2:** Access to Blacklisted External URL Blocked by Firewall
-Decision: True Positive
-Explanation: Known malicious IP - Escalate for further review as to why our IP tried to access was it by accident, a phishing breach, or an inside threat.
+**Alert 2:** Access to Blacklisted External URL Blocked by Firewall</br>
+Decision: True Positive</br>
+Explanation: Known malicious IP - Escalate for further review as to why our IP tried to access was it by accident, a phishing breach, or an inside threat.</br>
 
-**Alert 3:** Inbound Email Containing Suspicious External Link 
-Decision: True Positive
-Explanation: The sender and external link are impersonating Microsoft.
+**Alert 3:** Inbound Email Containing Suspicious External Link </br>
+Decision: True Positive</br>
+Explanation: The sender and external link are impersonating Microsoft.</br>
