@@ -48,14 +48,17 @@ Decision: True Positive</br>
 Explanation: The sender and external link are impersonating Microsoft.</br>
 
 ## Attempt 2: Scenario Unfolding
-**Results:** I am now in the top 45% _Unsure what this means_
+**Results:** [94.44%](https://tryhackme.com/soc-sim/public-summary/995098a35d4d0b022e6940be038e0a4d8f307bbee339a6e0d810565492b85d1774a2c6060cc470b203159d14b12684ca), Mean time to Resolve 1 minute, 36 Alerts - Currently 1st Place!, Placing me in the top 45% on TryHackMe
 
-Description
+<img width="1315" height="459" alt="image" src="https://github.com/user-attachments/assets/14e9a9be-df5e-4b73-bed8-de933c6c57ab" />
+<img width="1293" height="297" alt="image" src="https://github.com/user-attachments/assets/4f2bfbaf-cc29-437a-925b-f662d6c38f16" />
 
+
+**Description**
 Dive into the heat of a live phishing attack as it unfolds within the corporate network. In this high-pressure scenario, your role is to meticulously analyze and document each phase of the breach as it happens. Can you piece together the attack chain in real-time and prepare a comprehensive report on the malicious activities?
 Scenario objectives
 
-Monitor and analyse real-time alerts as the attack unfolds.
+**Monitor and analyze real-time alerts as the attack unfolds.**
 Identify and document critical events such as PowerShell executions, reverse shell connections, and suspicious DNS requests.
 Create detailed case reports based on your observations to help the team understand the full scope of the breach.
 
@@ -63,6 +66,10 @@ Create detailed case reports based on your observations to help the team underst
 The CCNA Cybersecurity labs, studying, and knowledge helped me through this one for sure!
 At first there are a few simple phishing/spam emails then you get a few tickets of uncommon subprocesses which on their own could be false positives until you receive an indicator of attack (no spoilers here - IYKYK). Then over 30 tickets rush in requiring you to investigate via Splunk (it does allow you to select your preferred SIEM when starting). It quickly becomes apparent there is an external threat actor poking your network and then it happens - They begin exfiltrating data.
 It is important to both prioritize priority of tickets as the attack escalates but also keep a timeline in your mind as you investigate each ticket to provide accurate reporting.</br>
+
+**Lessons Learned**
+TryHackMe does NOT want you to mark spam emails as Phishing and they want specifically Phishing emails only to be marked threats.
+
 
 </br></br>
 
