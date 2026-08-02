@@ -24,7 +24,8 @@ _Exploring TryHackMe to expand my hands on practice reinforcing technical capabi
 
 
 
-# SOC Simulator**
+# SOC Simulator 
+Results: [100%](https://tryhackme.com/zcurry.zinc/badges/soc-sim-100-percent-true-positive-rate?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&sharerId=6a6e830155dbdfd620eeb0aa)
 Step 1: Find all true positives</br>
 Step 2: Read the documentation</br>
 Step 3: Investigate the alert queue</br>
@@ -41,7 +42,7 @@ Decision: True Positive</br>
 Explanation: Known malicious IP - Escalate for further review as to why our IP tried to access was it by accident, a phishing breach, or an inside threat.</br>
 
 
-#Take Over Challenge
+# Take Over Challenge
 First Attempt: Updated my host file with the IP and URL but was unable to obtain the x509 cert. Tried Fuzz but it didn't work. Used the entire hour and will retire again in the near future.
 
 **Alert 3:** Inbound Email Containing Suspicious External Link </br>
